@@ -1,16 +1,22 @@
 #Week1-project
 
 Major languages: HTML ; CSS
+
 Frameworks: -
+
 Technologies used: -
+
 Live Demo: -
+
 Live Demo Link:
 
 Author
 👤 Author
 
 GitHub: @Loosescrew022
+
 Twitter: @P_Rutkowski022
+
 LinkedIn: https://www.linkedin.com/in/piotr-rutkowski-145004207/
 
 🤝 Contributing
