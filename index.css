@@ -45,17 +45,49 @@ table {
 /* code starts here */
 
 body {
-  font-family: 'Libre Franklin', sans-serif;
-  font-size: 1.25rem;
-}
-
-main {
-  width: 600px;
-  margin: auto;
+  font-family: 'Times New Roman', sans-serif;
+  margin: 0 0 0.935rem 0;
+  width: 100%;
+  max-width: 100%;
+  font-size: 1.45rem;
+  line-height: 1.875rem;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  width: 100%;
+  height: 100%;
 }
 
 li {
   display: inline;
+}
+
+figcaption {
+  display: inline;
+  text-align: left;
+  font-size: 1.05rem;
+  line-height: 1.25rem;
+  color: #666;
+  margin-top: 10px;
+}
+
+a {
+  color: rgb(50, 104, 145);
+}
+
+#Ricky {
+  font-size: 0.95rem;
+  color: #888;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italian {
+  font-style: italic;
 }
 
 /* Top Navbar styles */ 
@@ -64,7 +96,7 @@ li {
   position: fixed;
   width: 100%;
   font-size: 1.05rem;
-  margin-top: -10px;
+  margin-top: -26px;
   padding-top: 15px;
   background-color: white;
 }
@@ -102,6 +134,7 @@ li {
 
 }
 
+
 .TopButton {
   background-color: #567b95;
   border: 1px solid:#326891;
@@ -116,17 +149,150 @@ li {
 
 }
 
-/* */
+/* FlexBox Specs*/
+.FlexBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Flex1 {
+  display: flex;
+  flex-direction:column;
+  height: 100%;
+  width: 210px;
+  background-color: red;
+
+}
+
+.Middle {
+  display: flex;
+  flex-direction:column;
+  height: 100%;
+  width:40%;
+}
+
+/*Title & Social media icons */
 
 #ArtHeader {
-  margin-top: 150px;
-
+  margin-top: 100px;
+  width:33%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #ArtHeader h1 {
   font-style: italic;
   font-weight: 1000;
   font-size: 32px;
+  padding-bottom: 15px;
+}
+
+#ArtHeader hr {
+  margin-bottom: 15px;
+}
+
+.SocIcon {
+  font-size:24px;
+}
+
+.SocIcon li {
+  margin-right: 20px;
+  color: black;
+
+}
+
+/* Alan Guth picture styles */
+
+#Pic1 {
+  display: flex;
+  flex-direction:column;
+  width: 1300px;
+  margin: auto;
+  margin-top:30px;
+
+}
+
+/* writer note styles */
+
+#Writer p {
+  margin-top: 25px;
+  color: black;
+  text-decoration: none;
+  font-size: 1.05rem;
+
+}
+
+#Writer a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+
+}
+
+#date {
+  font-size: 0.85rem;
+  margin-top: 10px;
+
+}
+
+/* Signup styles */
+
+#ArtSignUp {
+  display: flex;
+  flex-direction:row;
+
+}
+
+#SignUpButt {
+  display: block;
+  border: 1px solid black;
+  background: white;
+  font-weight: 700;
+  height: auto;
+  white-space: nowrap;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  font-size: 1rem;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-top: 1px;
+  margin-left: 10px;
+}
+
+/* First text block styles */
+.txt1 {
+  padding-top: 30px;
+}
+
+/*Subscripe to times styles */
+ #SubscrDiv {
+   text-align: center;
+   font-size: 1.1rem;
+ }
+
+#SubscrDiv a {
+  text-decoration: none;
+  color: rgb(50, 104, 145);
+  margin-top: -5px;
+ }
+
+ #SubscrDiv hr {
+   width: 100px;
+ }
+
+ /* Side bar styles */
+
+.SideBarAdd {
+  display: flex;
+  flex-direction: row;
+}
+
+.Flex1 p {
+	font-size:16px;
 }
 
 
