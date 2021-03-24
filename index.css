@@ -83,6 +83,15 @@ h3 {
   font-weight: bold;
 }
 
+footer {
+  width: 70%;
+  height:500px;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  font-family: nyt-franklin, helvetica, arial;
+}
+
 #Ricky {
   font-size: 0.95rem;
   color: #888;
@@ -458,6 +467,75 @@ h3 {
 .SocIcon {
   display: inline;
   float: right;
+}
+
+/* footer styles starts here */
+
+.FooterMain {
+  height:500px;
+
+  width: 70%;
+
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.NewsLet {
+  width: 33%;
+  border: solid 1px red;
+  padding: 10px;
+}
+
+.NewsLet img {
+  display: inline;
+  
+ 
+
+}
+
+.NewsLet button {
+  position: relative;
+  right: -205px;
+  top: -55px;
+
+}
+
+.NewsLet h6 {
+  font-size: 0.80rem;
+  line-height: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.09rem;
+  text-transform: uppercase;
+  color: rgb(51, 51, 51);
+  width: 100%;
+}
+
+.NewsLet h4 {
+  font-size: 1.125rem;
+  width: 100%;
+}
+
+.NewsLet p {
+  font-size: 1rem;
+  line-height: 1px;
+  letter-spacing: 0.2px;
+  color: rgb(51, 51, 51);
+}
+
+
+.FooterMain p {
+  display: inline;
+}
+
+.FooterSide {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  
 }
 
 
