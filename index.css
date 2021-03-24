@@ -90,6 +90,7 @@ footer {
   margin-top: 50px;
   display: flex;
   font-family: nyt-franklin, helvetica, arial;
+  line-height: 20px;
 }
 
 #Ricky {
@@ -446,6 +447,10 @@ footer {
 
 }
 
+.FooterMargin {
+  margin-top: 25px;
+}
+
 .CommentButt {
   display: inline;
   float: left;
@@ -472,35 +477,49 @@ footer {
 /* footer styles starts here */
 
 .FooterMain {
-  height:500px;
-
-  width: 70%;
-
+  height: 500px;
+  width: 68.5%;
+  margin-right: 3%;
 }
 
 .section {
   display: flex;
   flex-direction: row;
-
+  margin-top: 25px;
 }
+
+.topp {
+  display: inline;
+  font-size: 1rem;
+}
+
+.toppFlex {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* First row of the suggested newsletter + sidebar styles */
 
 .NewsLet {
   width: 33%;
-  border: solid 1px red;
+  border: solid 1px rgb(50, 104, 145)
+  border-radius: 3px;
   padding: 10px;
 }
 
 .NewsLet img {
   display: inline;
   
- 
-
 }
 
 .NewsLet button {
   position: relative;
-  right: -205px;
-  top: -55px;
+  right: -185px;
+  top: -50px;
+  border: none;
+  background-color:white;
+  font-size: 34px;
+  cursor: pointer;
 
 }
 
@@ -512,30 +531,63 @@ footer {
   text-transform: uppercase;
   color: rgb(51, 51, 51);
   width: 100%;
+  margin-bottom: 10px;
 }
 
 .NewsLet h4 {
   font-size: 1.125rem;
   width: 100%;
+  margin-bottom: 10px;
 }
 
 .NewsLet p {
+  position: relative;
+  align-self: flex-start;
   font-size: 1rem;
-  line-height: 1px;
   letter-spacing: 0.2px;
   color: rgb(51, 51, 51);
+  width: 100%;
+  bottom: 10px;
 }
 
 
-.FooterMain p {
-  display: inline;
-}
 
 .FooterSide {
   display: flex;
   flex-direction: column;
-  width: 30%;
+  width: 28.5%;
   
 }
 
+/* 2nd & 3rd row of newsletter */
+.section2 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.Pick {
+	margin-right: 25px;
+	margin-top: 25px;
+	flex-grow: 1;
+}
+
+.Pick h6 {
+  font-size: 0.60rem;
+  line-height: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.09rem;
+  text-transform: uppercase;
+  color: rgb(51, 51, 51);
+  width: 100%;
+}
+
+.Pick h5 {
+  font-size: 0.70rem;
+  line-height: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.09rem;
+  text-transform: uppercase;
+  color: rgb(51, 51, 51);
+  width: 100%;
+} 
 
