@@ -323,7 +323,7 @@ a {
   height: 580px;
   margin-left: -150px !important;
   margin-top: 250px;
-
+  z-index: 2;
 
 }
 .ContCont {
@@ -338,7 +338,42 @@ a {
 .Pic2 {
   position:absolute;
   display: flex;
-  margin-right: 25px;
+  margin-left: -150px;
+  margin-top: 2930px;
+  z-index: 1;
+}
+
+.PicCap8 {
+  width:950px;
+  margin-left:-150px;
+}
+
+.PicCap8 p {
+  display: inline;
+  text-align: left;
+  font-size: 1.05rem;
+  line-height: 1.0rem;
+  color: #666;
+}
+
+/* 8 picture author note styles */
+.Pic8Auth {
+  width: 950px;
+  margin-left: -150px;
+  text-align: left;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  font-weight: 500;
+  color: #333;
+  margin-top: -75px;
+
+
+}
+
+/* text after 8picture up to video */
+
+.txt2 {
+  margin-top: 75px;
 }
 
 
