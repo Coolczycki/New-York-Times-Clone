@@ -382,7 +382,7 @@ h3 {
   width: 950px;
   margin-left: -150px;
   text-align: left;
-  font-size: 0.875rem;
+  font-size: 1.1rem;
   line-height: 1.125rem;
   font-weight: 500;
   color: #333;
@@ -425,5 +425,39 @@ h3 {
 }
 
 
+/* version article footer, comment button and social media icon styling section */
+.ArtVers {
+  font-size: 0.85rem;
+  line-height: 1rem;
+  color: rgb(102, 102, 102);
+}
+
+.ArtFooter {
+  margin-top: 25px;
+
+}
+
+.CommentButt {
+  display: inline;
+  float: left;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  line-height: 1.5rem;
+  font-weight: 600;
+  font-size: 0.82rem;
+  background-color: rgb(86, 123, 149);
+  border: 1px solid rgb(50, 104, 145);
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  width: 328px;
+  height: 36px;
+  padding: 5 0;
+}
+
+.SocIcon {
+  display: inline;
+  float: right;
+}
 
 
