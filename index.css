@@ -75,6 +75,7 @@ figcaption {
 
 a {
   color: rgb(50, 104, 145);
+  text-decoration:none;
 }
 
 #Ricky {
@@ -161,7 +162,8 @@ a {
   flex-direction:column;
   height: 100%;
   width: 210px;
-  background-color: red;
+  margin-top: 1200px;
+  margin-left: 75px;
 
 }
 
@@ -169,7 +171,8 @@ a {
   display: flex;
   flex-direction:column;
   height: 100%;
-  width:40%;
+  width:30%;
+  margin-left: 200px;
 }
 
 /*Title & Social media icons */
@@ -289,10 +292,53 @@ a {
 .SideBarAdd {
   display: flex;
   flex-direction: row;
+  line-height:25px;
+  margin-top:20px;
+
+}
+.BlackLink {
+  color: black;
 }
 
 .Flex1 p {
-	font-size:16px;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.AdvPic {
+  margin-right: 10px;
+}
+
+.Flex1 hr {
+  height: 2px;
+}
+
+/* 8picture + description styles here */ 
+
+.cont8 {
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  width: 950px;
+  height: 580px;
+  margin-left: -150px !important;
+  margin-top: 250px;
+
+
+}
+.ContCont {
+  font-size: 14px;
+  width: 228px;
+  height: 137px;
+  line-height: 17px;
+  margin-right: 5px;
+
+}
+
+.Pic2 {
+  position:absolute;
+  display: flex;
+  margin-right: 25px;
 }
 
 
