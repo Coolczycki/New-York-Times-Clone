@@ -78,6 +78,11 @@ a {
   text-decoration:none;
 }
 
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
 #Ricky {
   font-size: 0.95rem;
   color: #888;
@@ -370,10 +375,37 @@ a {
 
 }
 
-/* text after 8picture up to video */
+/* text after 8picture up to video + video styles */
 
 .txt2 {
   margin-top: 75px;
+}
+.VidClass {
+  margin-top: 25px;
+}
+.VidClass p{
+  text-align: left;
+  font-size: 0.95rem;
+  line-height: 1.125rem;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+/* Third picture and text after it styles */
+
+.Pic3 {
+  margin-left: -100px;
+  margin-top:25px;
+  margin-bottom:25px;
+}
+
+.Pic3 p {
+  text-align: left;
+  font-size: 0.95rem;
+  line-height: 1.125rem;
+  font-weight: 500;
+  color: #333;
 }
 
 
