@@ -252,6 +252,22 @@ h3 {
 
 }
 
+.ArtSignUpP {
+  text-align: left;
+  font-size: 1.1rem;
+  line-height: 1.125rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.ArtSignUpP h4 {
+  display: inline;
+}
+
+.ArtSignUpP p{
+	display: inline;
+} 
+
 #SignUpButt {
   display: block;
   border: 1px solid black;
