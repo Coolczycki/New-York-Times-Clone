@@ -191,23 +191,25 @@ footer {
 
 #NavList :nth-child(1) {
   margin-left: 50px;
+  position: relative;
+  float: left;
 }
 
 #NavList :nth-child(2) {
-  margin-left: -20px;
+  position: relative;
+  float: left;
+  margin-left: 50px;
 }
 
 #NavList :nth-child(3) {
-  margin-left: 20px;
   font-weight: bold;
+  position: relative;
+  float: left;
+  margin-left: 50px;
 }
 
 #NavList :nth-child(4) {
   margin: auto;
-}
-
-#NavList :nth-child(5) {
-  margin-right: -80px;
 }
 
 #NavList :nth-child(6) {
@@ -215,6 +217,8 @@ footer {
 }
 
 .TopButton1 {
+  position: relative;
+  float: right;
   border-radius: 3px;
   cursor: pointer;
   white-space: nowrap;
@@ -230,7 +234,9 @@ footer {
   text-transform: uppercase;
 }
 
-.TopButton2 {
+.TopButton2 { 
+  position: relative;
+  float: right;
   border-radius: 3px;
   cursor: pointer;
   white-space: nowrap;
@@ -586,9 +592,10 @@ footer {
 /* First row of the suggested newsletter + sidebar styles */
 .NewsLet {
   width: 33%;
-  border: solid 1px rgb(50, 104, 145);
+  border: solid 1px rgb(102, 102, 102);
   border-radius: 3px;
   padding: 10px;
+  margin-right: 10px;
 }
 
 .NewsLet img {
@@ -597,7 +604,7 @@ footer {
 
 .NewsLet button {
   position: relative;
-  right: -185px;
+  right: -155px;
   top: -50px;
   border: none;
   background-color: white;
@@ -693,7 +700,7 @@ footer {
   display: flex;
   flex-direction: row;
   color: black;
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 500;
   line-height: 34px;
   text-decoration: none;
@@ -714,12 +721,14 @@ footer {
   display: inline;
 }
 
-.footerList ul {
-  list-style: initial;
+.footerList {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .footerList li {
-  list-style: initial;
+  width: 100%;
 }
 
 .bottomText {
