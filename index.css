@@ -214,10 +214,6 @@ footer {
   margin-right: 100px;
 }
 
-#NavList li {
-  margin-bottom: auto;
-}
-
 .TopButton1 {
   border-radius: 3px;
   cursor: pointer;
@@ -237,7 +233,6 @@ footer {
 .TopButton2 {
   border-radius: 3px;
   cursor: pointer;
-  font-family: nyt-franklin, helvetica, arial;
   white-space: nowrap;
   vertical-align: middle;
   background-color: #567b95;
@@ -249,7 +244,6 @@ footer {
   height: 35px;
   color: white;
   text-transform: uppercase;
-  cursor: pointer;
 }
 
 /* FlexBox Specs */
@@ -291,13 +285,13 @@ footer {
   padding-bottom: 15px;
   line-height: 42px;
 }
+
 #ArtHeader hr {
   margin-bottom: 15px;
 }
 
 .SocIcon {
   width: 100%;
-  display: relative;
   float: left;
   font-size: 24px;
   margin-bottom: 25px;
@@ -390,20 +384,20 @@ footer {
 }
 
 #SubscrDiv a {
-  text-decoration: none;
+text-decoration: none;
   color: rgb(50, 104, 145);
   margin-top: -5px;
 }
 
 #SubscrDiv hr {
   width: 100px;
- }
+}
 
  /* Side bar styles */
 .SideBarAdd {
   display: flex;
   flex-direction: row;
-  line-height: 25px;
+line-height: 25px;
   margin-top: 20px;
 }
 
@@ -645,7 +639,7 @@ footer {
 }
 
 .Pick2 h6 {
-  font-size: 0.60rem;
+  font-size: 0.6rem;
   line-height: 1rem;
   font-weight: 500;
   letter-spacing: 0.09rem;
@@ -655,7 +649,7 @@ footer {
 }
 
 .Pick2 h5 {
-  font-size: 0.70rem;
+  font-size: 0.7rem;
   line-height: 1rem;
   font-weight: 500;
   letter-spacing: 0.09rem;
@@ -665,7 +659,7 @@ footer {
 }
 
 .Pick h6 {
-  font-size: 0.60rem;
+  font-size: 0.6rem;
   line-height: 1rem;
   font-weight: 500;
   letter-spacing: 0.09rem;
@@ -675,7 +669,7 @@ footer {
 }
 
 .Pick h5 {
-  font-size: 0.70rem;
+  font-size: 0.7rem;
   line-height: 1rem;
   font-weight: 500;
   letter-spacing: 0.09rem;
@@ -745,4 +739,3 @@ footer {
   padding: 10px 0;
   margin-right: 12px;
 }
-
