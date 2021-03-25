@@ -437,7 +437,7 @@ footer {
 }
 
 /* Subscripe to times styles */
- #SubscrDiv {
+#SubscrDiv {
   text-align: center;
   font-size: 1.1rem;
 }
@@ -452,7 +452,7 @@ footer {
   width: 100px;
 }
 
- /* Side bar styles */
+/* Side bar styles */
 .SideBarAdd {
   display: flex;
   flex-direction: row;
