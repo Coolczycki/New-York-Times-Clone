@@ -317,11 +317,27 @@ footer {
 	display: inline;
 }
 
+.footerTitle p {
+  display: inline;
+  float: right;
+}
+
+.footerFlexBox a {
+  text-decoration: none;
+  color: black;
+}
+
 #Writer p {
   margin-top: 25px;
   color: black;
   text-decoration: none;
   font-size: 1.05rem;
+}
+
+.bottomText a {
+  color: #666;
+  padding: 10px 0;
+  margin-right: 12px;
 }
 
 #Writer a {
@@ -534,12 +550,7 @@ line-height: 25px;
   cursor: pointer;
   width: 328px;
   height: 36px;
-  padding: 5 0;
-}
-
-.SocIcon {
-  display: inline;
-  float: right;
+  padding: 5;
 }
 
 /* footer styles starts here */
@@ -676,15 +687,10 @@ line-height: 25px;
   text-transform: uppercase;
   color: rgb(51, 51, 51);
   width: 100%;
-} 
-
-/* real footer starts here */
-.footerFlexBox a{
-  text-decoration: none;
-  color: black;
 }
 
-.footerFlexBox{
+/* real footer starts here */
+.footerFlexBox {
   margin-top: 25px;
   display: flex;
   flex-direction: row;
@@ -710,11 +716,6 @@ line-height: 25px;
   display: inline;
 }
 
-.footerTitle p {
-  display: inline;
-  float: right;
-}
-
 .footerList ul {
   list-style: initial;
 }
@@ -727,15 +728,8 @@ line-height: 25px;
   width: 100%;
   margin: 0 auto;
   color: black;
-  font-family: nyt-franklin, helvetica, arial;
   font-size: 15px;
   font-weight: 500;
   line-height: 34px;
   text-decoration: none;
-}
-
-.bottomText a {
-  color: #666;
-  padding: 10px 0;
-  margin-right: 12px;
 }
