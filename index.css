@@ -300,7 +300,6 @@ footer {
 .SocIcon li {
   margin-right: 20px;
   color: black;
-
 }
 
 /* Alan Guth picture styles */
@@ -314,7 +313,7 @@ footer {
 
 /* writer note styles */
 .ArtSignUpP p {
-	display: inline;
+  display: inline;
 }
 
 .footerTitle p {
@@ -325,6 +324,25 @@ footer {
 .footerFlexBox a {
   text-decoration: none;
   color: black;
+}
+
+.Flex1 p {
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.Flex1 hr {
+  height: 2px;
+}
+
+.NewsLet p {
+  position: relative;
+  align-self: flex-start;
+  font-size: 1rem;
+  letter-spacing: 0.2px;
+  color: rgb(51, 51, 51);
+  width: 100%;
+  bottom: 10px;
 }
 
 #Writer p {
@@ -400,7 +418,7 @@ footer {
 }
 
 #SubscrDiv a {
-text-decoration: none;
+  text-decoration: none;
   color: rgb(50, 104, 145);
   margin-top: -5px;
 }
@@ -413,7 +431,7 @@ text-decoration: none;
 .SideBarAdd {
   display: flex;
   flex-direction: row;
-line-height: 25px;
+  line-height: 25px;
   margin-top: 20px;
 }
 
@@ -421,20 +439,11 @@ line-height: 25px;
   color: black;
 }
 
-.Flex1 p {
-  font-size: 16px;
-  text-decoration: none;
-}
-
 .AdvPic {
   margin-right: 10px;
 }
 
-.Flex1 hr {
-  height: 2px;
-}
-
-/* 8picture + description styles here */ 
+/* 8picture + description styles here */
 .cont8 {
   display: flex;
   flex-direction: row;
@@ -612,16 +621,6 @@ line-height: 25px;
   font-size: 1.125rem;
   width: 100%;
   margin-bottom: 10px;
-}
-
-.NewsLet p {
-  position: relative;
-  align-self: flex-start;
-  font-size: 1rem;
-  letter-spacing: 0.2px;
-  color: rgb(51, 51, 51);
-  width: 100%;
-  bottom: 10px;
 }
 
 .FooterSide {
