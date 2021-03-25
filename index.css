@@ -86,7 +86,7 @@ video {
   vertical-align: baseline;
 }
 
-/* HTML5 display-role reset for older browsers */ 
+/* HTML5 display-role reset for older browsers */
 article,
 aside,
 details,
@@ -123,7 +123,6 @@ body {
   width: 100%;
   max-width: 100%;
   font-size: 1.45rem;
-  line-height: 1.875rem;
   display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
@@ -179,7 +178,7 @@ footer {
   font-style: italic;
 }
 
-/* Top Navbar styles */ 
+/* Top Navbar styles */
 #NavList {
   display: flex;
   position: fixed;
@@ -205,7 +204,6 @@ footer {
 
 #NavList :nth-child(4) {
   margin: auto;
-  margin-top: 0px;
 }
 
 #NavList :nth-child(5) {
@@ -217,7 +215,6 @@ footer {
 }
 
 #NavList li {
-  margin-top: 0px;
   margin-bottom: auto;
 }
 
@@ -322,6 +319,10 @@ footer {
 }
 
 /* writer note styles */
+.ArtSignUpP p {
+	display: inline;
+}
+
 #Writer p {
   margin-top: 25px;
   color: black;
@@ -356,10 +357,6 @@ footer {
 
 .ArtSignUpP h4 {
   display: inline;
-}
-
-.ArtSignUpP p {
-	display: inline;
 }
 
 #SignUpButt {
