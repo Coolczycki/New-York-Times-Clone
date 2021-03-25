@@ -286,6 +286,10 @@ footer {
   line-height: 42px;
 }
 
+.Flex1 hr {
+  height: 2px;
+}
+
 #ArtHeader hr {
   margin-bottom: 15px;
 }
@@ -331,10 +335,6 @@ footer {
   text-decoration: none;
 }
 
-.Flex1 hr {
-  height: 2px;
-}
-
 .NewsLet p {
   position: relative;
   align-self: flex-start;
@@ -343,6 +343,31 @@ footer {
   color: rgb(51, 51, 51);
   width: 100%;
   bottom: 10px;
+}
+
+.Pic3 p {
+  text-align: left;
+  font-size: 0.95rem;
+  line-height: 1.125rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.PicCap8 p {
+  display: inline;
+  text-align: left;
+  font-size: 1.05rem;
+  line-height: 1rem;
+  color: #666;
+}
+
+.VidClass p {
+  text-align: left;
+  font-size: 0.95rem;
+  line-height: 1.125rem;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 25px;
 }
 
 #Writer p {
@@ -476,14 +501,6 @@ footer {
   margin-left: -150px;
 }
 
-.PicCap8 p {
-  display: inline;
-  text-align: left;
-  font-size: 1.05rem;
-  line-height: 1.0rem;
-  color: #666;
-}
-
 /* 8 picture author note styles */
 .Pic8Auth {
   width: 950px;
@@ -505,28 +522,11 @@ footer {
   margin-top: 25px;
 }
 
-.VidClass p{
-  text-align: left;
-  font-size: 0.95rem;
-  line-height: 1.125rem;
-  font-weight: 500;
-  color: #333;
-  margin-bottom: 25px;
-}
-
 /* Third picture and text after it styles */
 .Pic3 {
   margin-left: -100px;
   margin-top: 25px;
   margin-bottom: 25px;
-}
-
-.Pic3 p {
-  text-align: left;
-  font-size: 0.95rem;
-  line-height: 1.125rem;
-  font-weight: 500;
-  color: #333;
 }
 
 /* version article footer, comment button and social media icon styling section */
@@ -559,7 +559,6 @@ footer {
   cursor: pointer;
   width: 328px;
   height: 36px;
-  padding: 5;
 }
 
 /* footer styles starts here */
@@ -607,7 +606,7 @@ footer {
 }
 
 .NewsLet h6 {
-  font-size: 0.80rem;
+  font-size: 0.8rem;
   line-height: 1rem;
   font-weight: 500;
   letter-spacing: 0.09rem;
