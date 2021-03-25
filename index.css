@@ -498,7 +498,7 @@ footer {
   position: absolute;
   display: flex;
   margin-left: -170px;
-  margin-top: 2190px;
+  margin-top: 2480px;
   z-index: 1;
 }
 
@@ -508,7 +508,7 @@ footer {
 }
 
 /* 8 picture author note styles */
-.pic8Auth {
+.Pic8Auth {
   width: 950px;
   margin-left: -150px;
   text-align: left;
@@ -613,7 +613,7 @@ footer {
 
 .NewsLet button {
   position: relative;
-  right: -155px;
+  right: -135px;
   top: -50px;
   border: none;
   background-color: white;
