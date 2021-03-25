@@ -100,21 +100,23 @@ nav,
 section {
   display: block;
 }
+
 ol,
 ul {
   list-style: none;
 }
+
 blockquote,
 q {
   quotes: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
 /* code starts here */
-
 body {
   font-family: 'Times New Roman', sans-serif;
   margin: 0 0 0.935rem 0;
@@ -134,6 +136,7 @@ body {
 li {
   display: inline;
 }
+
 figcaption {
 
   text-align: left;
@@ -146,14 +149,17 @@ figcaption {
   width: 1300px;
   margin: auto;
 }
+
 a {
   color: rgb(50, 104, 145);
   text-decoration:none;
 }
+
 h3 {
   font-size: 24px;
   font-weight: bold;
 }
+
 footer {
   width: 70%;
   margin: 0 auto;
@@ -162,13 +168,16 @@ footer {
   font-family: nyt-franklin, helvetica, arial;
   line-height: 20px;
 }
+
 #Ricky {
   font-size: 0.95rem;
   color: #888;
 }
+
 .bold {
   font-weight: bold;
 }
+
 .italian {
   font-style: italic;
 }
@@ -183,30 +192,38 @@ footer {
   padding-top: 15px;
   background-color: white;
 }
+
 #NavList :nth-child(1) {
   margin-left: 50px;
 }
+
 #NavList :nth-child(2) {
   margin-left: -20px;
 }
+
 #NavList :nth-child(3) {
   margin-left: 20px;
   font-weight: bold;
 }
+
 #NavList :nth-child(4) {
   margin: auto;
   margin-top: 0px;
 }
+
 #NavList :nth-child(5) {
   margin-right: -80px;
 }
+
 #NavList :nth-child(6) {
   margin-right: 100px;
 }
+
 #NavList li {
   margin-top: 0;
   margin-bottom: auto;
 }
+
 .TopButton1 {
   border-radius: 3px;
   cursor: pointer;
@@ -224,6 +241,7 @@ footer {
   text-transform: uppercase;
   cursor: pointer;
 }
+
 .TopButton2 {
    border-radius: 3px;
   cursor: pointer;
@@ -248,6 +266,7 @@ footer {
   flex-direction: row;
   justify-content: center;
 }
+
 .Flex1 {
   display: flex;
   flex-direction:column;
@@ -255,8 +274,8 @@ footer {
   width: 210px;
   margin-top: 1200px;
   margin-left: 75px;
-
 }
+
 .Middle {
   display: flex;
   flex-direction:column;
@@ -272,6 +291,7 @@ footer {
   margin-left: auto;
   margin-right: auto;
 }
+
 #ArtHeader h1 {
   font-style: italic;
   font-weight: 1000;
@@ -282,6 +302,7 @@ footer {
 #ArtHeader hr {
   margin-bottom: 15px;
 }
+
 .SocIcon {
   width: 100%;
   display: relative;
@@ -289,6 +310,7 @@ footer {
   font-size: 24px;
   margin-bottom: 25px;
 }
+
 .SocIcon li {
   margin-right: 20px;
   color: black;
@@ -311,11 +333,13 @@ footer {
   text-decoration: none;
   font-size: 1.05rem;
 }
+
 #Writer a {
   text-decoration: none;
   color: black;
   font-weight: bold;
 }
+
 #date {
   font-size: 0.85rem;
   margin-top: 10px;
@@ -326,6 +350,7 @@ footer {
   display: flex;
   flex-direction:row;
 }
+
 .ArtSignUpP {
   text-align: left;
   font-size: 1.1rem;
@@ -333,12 +358,15 @@ footer {
   font-weight: 500;
   color: #333;
 }
+
 .ArtSignUpP h4 {
   display: inline;
 }
-.ArtSignUpP p{
+
+.ArtSignUpP p {
 	display: inline;
-} 
+}
+
 #SignUpButt {
   display: block;
   border: 1px solid black;
@@ -368,11 +396,13 @@ footer {
   text-align: center;
   font-size: 1.1rem;
 }
+
 #SubscrDiv a {
   text-decoration: none;
   color: rgb(50, 104, 145);
   margin-top: -5px;
 }
+
 #SubscrDiv hr {
   width: 100px;
  }
@@ -384,9 +414,11 @@ footer {
   line-height:25px;
   margin-top:20px;
 }
+
 .BlackLink {
   color: black;
 }
+
 .Flex1 p {
   font-size: 16px;
   text-decoration: none;
@@ -411,6 +443,7 @@ footer {
   margin-top: 250px;
   z-index: 2;
 }
+
 .ContCont {
   font-size: 14px;
   width: 228px;
@@ -418,6 +451,7 @@ footer {
   line-height: 17px;
   margin-right: 5px;
 }
+
 .Pic2 {
   position:absolute;
   display: flex;
@@ -425,10 +459,12 @@ footer {
   margin-top: 2880px;
   z-index: 1;
 }
+
 .PicCap8 {
   width:950px;
   margin-left:-150px;
 }
+
 .PicCap8 p {
   display: inline;
   text-align: left;
@@ -453,9 +489,11 @@ footer {
 .txt2 {
   margin-top: 75px;
 }
+
 .VidClass {
   margin-top: 25px;
 }
+
 .VidClass p{
   text-align: left;
   font-size: 0.95rem;
@@ -471,6 +509,7 @@ footer {
   margin-top:25px;
   margin-bottom:25px;
 }
+
 .Pic3 p {
   text-align: left;
   font-size: 0.95rem;
@@ -485,12 +524,15 @@ footer {
   line-height: 1rem;
   color: rgb(102, 102, 102);
 }
+
 .ArtFooter {
   margin-top: 25px;
 }
+
 .FooterMargin {
   margin-top: 25px;
 }
+
 .CommentButt {
   display: inline;
   float: left;
@@ -508,6 +550,7 @@ footer {
   height: 36px;
   padding: 5 0;
 }
+
 .SocIcon {
   display: inline;
   float: right;
@@ -518,15 +561,18 @@ footer {
   width: 68.5%;
   margin-right: 3%;
 }
+
 .section {
   display: flex;
   flex-direction: row;
   margin-top: 25px;
 }
+
 .topp {
   display: inline;
   font-size: 1rem;
 }
+
 .toppFlex {
   display: flex;
   justify-content: space-between;
@@ -539,10 +585,11 @@ footer {
   border-radius: 3px;
   padding: 10px;
 }
+
 .NewsLet img {
   display: inline;
- 
 }
+
 .NewsLet button {
   position: relative;
   right: -185px;
@@ -552,6 +599,7 @@ footer {
   font-size: 34px;
   cursor: pointer;
 }
+
 .NewsLet h6 {
   font-size: 0.80rem;
   line-height: 1rem;
@@ -562,11 +610,13 @@ footer {
   width: 100%;
   margin-bottom: 10px;
 }
+
 .NewsLet h4 {
   font-size: 1.125rem;
   width: 100%;
   margin-bottom: 10px;
 }
+
 .NewsLet p {
   position: relative;
   align-self: flex-start;
@@ -576,11 +626,11 @@ footer {
   width: 100%;
   bottom: 10px;
 }
+
 .FooterSide {
   display: flex;
   flex-direction: column;
   width: 28.5%;
-  
 }
 
 /* 2nd & 3rd row of newsletter */
@@ -589,16 +639,19 @@ footer {
   flex-direction: row;
   width: 100%;
 }
+
 .Pick {
   margin-right: 25px;
   margin-top: 25px;
   flex-grow: 1;
 }
-.Pick2{
+
+.Pick2 {
   width: 310px;
   margin-right: 25px;
   margin-top: 15px;
 }
+
 .Pick2 h6 {
   font-size: 0.60rem;
   line-height: 1rem;
@@ -608,6 +661,7 @@ footer {
   color: rgb(51, 51, 51);
   width: 100%;
 }
+
 .Pick2 h5 {
   font-size: 0.70rem;
   line-height: 1rem;
@@ -617,6 +671,7 @@ footer {
   color: rgb(51, 51, 51);
   width: 100%;
 }
+
 .Pick h6 {
   font-size: 0.60rem;
   line-height: 1rem;
@@ -626,6 +681,7 @@ footer {
   color: rgb(51, 51, 51);
   width: 100%;
 }
+
 .Pick h5 {
   font-size: 0.70rem;
   line-height: 1rem;
@@ -641,6 +697,7 @@ footer {
   text-decoration: none;
   color: black;
 }
+
 .footerFlexBox{
   margin-top: 25px;
   display: flex;
@@ -653,27 +710,34 @@ footer {
   text-decoration: none;
   justify-content: space-between;
 }
+
 .footerCont {
   margin-right: 20px;
 }
+
 .bottomFooter {
   margin: 0 auto;
   margin-top: 25px;
   width: 70%;
 }
+
 .footerTitle img {
   display: inline;
 }
+
 .footerTitle p {
   display: inline;
   float: right;
 }
+
 .footerList ul {
   list-style: initial;
 }
+
 .footerList li {
   list-style: initial;
 }
+
 .bottomText {
   width: 100%;
   margin: 0 auto;
@@ -684,6 +748,7 @@ footer {
   line-height: 34px;
   text-decoration: none;
 }
+
 .bottomText a {
   color: #666;
   padding: 10px 0;
