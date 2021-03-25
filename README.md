@@ -1,12 +1,12 @@
 #Week1-project
 
-Major languages: HTML ; CSS
-Frameworks: -
-Technologies used: -
-Live Demo: -
-Live Demo Link:
+Major languages: HTML & CSS
+Frameworks: No frameworks were used.
+Technologies used: CSS flexbox & floats, basic HTML structure.
+Live Demo: 
+Live Demo Link: https://loosescrew022.github.io/Week1-project/
 
-Author
+
 👤 Author
 
 GitHub: @Loosescrew022
