@@ -86,7 +86,7 @@ video {
   vertical-align: baseline;
 }
 
-/* HTML5 display-role reset for older browsers */
+/* HTML5 display-role reset for older browsers */ 
 article,
 aside,
 details,
@@ -138,21 +138,19 @@ li {
 }
 
 figcaption {
-
   text-align: left;
   font-size: 1.05rem;
   line-height: 1.25rem;
   color: #666;
-  margin-top: 10px;
+  margin: 10px auto;
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   width: 1300px;
-  margin: auto;
 }
 
 a {
   color: rgb(50, 104, 145);
-  text-decoration:none;
+  text-decoration: none;
 }
 
 h3 {
@@ -165,7 +163,6 @@ footer {
   margin: 0 auto;
   margin-top: 50px;
   display: flex;
-  font-family: nyt-franklin, helvetica, arial;
   line-height: 20px;
 }
 
@@ -220,14 +217,13 @@ footer {
 }
 
 #NavList li {
-  margin-top: 0;
+  margin-top: 0px;
   margin-bottom: auto;
 }
 
 .TopButton1 {
   border-radius: 3px;
   cursor: pointer;
-  font-family: nyt-franklin, helvetica, arial;
   white-space: nowrap;
   vertical-align: middle;
   background-color: #567b95;
@@ -239,11 +235,10 @@ footer {
   height: 35px;
   color: white;
   text-transform: uppercase;
-  cursor: pointer;
 }
 
 .TopButton2 {
-   border-radius: 3px;
+  border-radius: 3px;
   cursor: pointer;
   font-family: nyt-franklin, helvetica, arial;
   white-space: nowrap;
@@ -260,7 +255,7 @@ footer {
   cursor: pointer;
 }
 
-/* FlexBox Specs*/
+/* FlexBox Specs */
 .FlexBox {
   display: flex;
   flex-direction: row;
@@ -269,7 +264,7 @@ footer {
 
 .Flex1 {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   height: 100%;
   width: 210px;
   margin-top: 1200px;
@@ -278,16 +273,16 @@ footer {
 
 .Middle {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   height: 100%;
-  width:30%;
+  width: 30%;
   margin-left: 200px;
 }
 
-/*Title & Social media icons */
+/* Title & Social media icons */
 #ArtHeader {
   margin-top: 100px;
-  width:33%;
+  width: 33%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -320,10 +315,10 @@ footer {
 /* Alan Guth picture styles */
 .Pic1 {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   width: 1300px;
   margin: auto;
-  margin-top:30px;
+  margin-top: 30px;
 }
 
 /* writer note styles */
@@ -348,7 +343,7 @@ footer {
 /* Signup styles */
 #ArtSignUp {
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
 }
 
 .ArtSignUpP {
@@ -391,7 +386,7 @@ footer {
   padding-top: 30px;
 }
 
-/*Subscripe to times styles */
+/* Subscripe to times styles */
  #SubscrDiv {
   text-align: center;
   font-size: 1.1rem;
@@ -411,8 +406,8 @@ footer {
 .SideBarAdd {
   display: flex;
   flex-direction: row;
-  line-height:25px;
-  margin-top:20px;
+  line-height: 25px;
+  margin-top: 20px;
 }
 
 .BlackLink {
@@ -435,7 +430,7 @@ footer {
 /* 8picture + description styles here */ 
 .cont8 {
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
   flex-wrap: wrap;
   width: 950px;
   height: 580px;
@@ -453,16 +448,16 @@ footer {
 }
 
 .Pic2 {
-  position:absolute;
+  position: absolute;
   display: flex;
-  margin-left: -150px;
-  margin-top: 2880px;
+  margin-left: -170px;
+  margin-top: 2190px;
   z-index: 1;
 }
 
 .PicCap8 {
-  width:950px;
-  margin-left:-150px;
+  width: 950px;
+  margin-left: -150px;
 }
 
 .PicCap8 p {
@@ -506,8 +501,8 @@ footer {
 /* Third picture and text after it styles */
 .Pic3 {
   margin-left: -100px;
-  margin-top:25px;
-  margin-bottom:25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .Pic3 p {
@@ -595,7 +590,7 @@ footer {
   right: -185px;
   top: -50px;
   border: none;
-  background-color:white;
+  background-color: white;
   font-size: 34px;
   cursor: pointer;
 }
@@ -703,7 +698,6 @@ footer {
   display: flex;
   flex-direction: row;
   color: black;
-  font-family: nyt-franklin, helvetica, arial;
   font-size: 15px;
   font-weight: 500;
   line-height: 34px;
