@@ -318,6 +318,7 @@ form {
   float: left;
   font-size: 24px;
   margin-bottom: 25px;
+  margin-right: -400px;
 }
 
 .SocIcon li {
@@ -565,7 +566,6 @@ form {
   grid-row-end: hori5;
 }
 
-
 .ContCont {
   font-size: 14px;
   width: 228px;
@@ -577,8 +577,8 @@ form {
 .pic2 {
   position: absolute;
   display: flex;
-  margin-left: 0px;
-  margin-top: 0px;
+  margin-left: 1px;
+  margin-top: 1px;
   z-index: 1;
 }
 
@@ -630,10 +630,6 @@ form {
   display: flex;
   flex-direction: row;
   justify-content: space-between !important;
-}
-
-.SocIcon {
-  margin-right: -400px;
 }
 
 .FooterMargin {
@@ -847,6 +843,7 @@ form {
   display: flex;
   flex-direction: column;
 }
+
 .formcomment {
   width: 100%;
   height: 200px;
