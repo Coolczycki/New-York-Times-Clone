@@ -277,7 +277,7 @@ figure {
   display: flex;
   flex-direction: column;
   height: 100%;
-  width: 30%;
+  width: 40%;
   margin-left: 200px;
 }
 
@@ -534,9 +534,9 @@ figure {
 
 /* Third picture and text after it styles */
 .pic3 {
-  margin-left: -100px;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin: 0 auto;
+  margin-top: 35px;
+  margin-bottom: 35px;
 }
 
 /* version article footer, comment button and social media icon styling section */
