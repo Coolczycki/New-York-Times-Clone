@@ -264,27 +264,44 @@
 		</div>
 
     <!-- form here -->
-    	<form>
-    		<label for="username">Username:</label>
-    		<input type="text" id="username" name="username"><br>
-    		<label for="email">E-mail:</label>
-    		<input type="text" id="email" name="email"><br>
-    		<label class="formcomment" for="comment">Comment:</label><br>
-    		<input type="text" id="comment" name="comment"><br>
+    <form id="commentform">
+    	<div class="smallflex">
+
+    		<div class="columnflex">
+    			<label for="username">Username:</label>
+    			<label for="email">E-mail:</label>
+    		</div>
+
+    		<div class="longfield">
+    			<input type="text" id="username" name="username" maxlength="20" required><br>
+    			<input type="text" id="email" name="email" maxlength="20" required><br>
+    		</div>
+    	</div>
+
+    	<div>
+    		<label for="comment">Comment:</label><br>
+    		<textarea class="formcomment" placeholder="Type your comment here..." name="comment" form="commentform" maxlength="250" required></textarea><br>
+    	</div>
+
+    	<div>
     		<p>What is your overall opinion about this article?</p>
+
+    		<ul class="formul">
     		<input type="radio" id="positive" name="opinion" value="positive">
-    		<label for="positive">Positive</label><br>
+    		<li><label for="positive">Positive</label></li>
     		<input type="radio" id="neutral" name="opinion" value="neutral">
-    		<label for="positive">Neutral</label><br>
+    		<li><label for="positive">Neutral</label></li>
     		<input type="radio" id="negative" name="opinion" value="negative">
-    		<label for="positive">Negative</label><br>
+    		<li><label for="positive">Negative</label></li>
+    		</ul>
+    	</div>
+
+    	<div>
     		<input type="checkbox" id="subscribe" name="subscribe" value="subcribe">
     		<label for="subscribe">I want to subscribe to newsletter</label><br>
-    		<input type="submit" value="submit">
-
-
-
-    	</form>
+    		<input class="formbutton" type="submit" value="send">
+    	</div>
+	</form>
 
 
 
