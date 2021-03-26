@@ -578,7 +578,7 @@ form {
   position: absolute;
   display: flex;
   margin-left: 0px;
-  margin-top: 0px
+  margin-top: 0px;
   z-index: 1;
 }
 
@@ -791,7 +791,7 @@ form {
   width: 70%;
 }
 
-.homepage{
+.homepage {
   font-size: 15px;
 }
 
