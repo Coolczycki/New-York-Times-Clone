@@ -363,10 +363,10 @@ figure {
   color: #333;
 }
 
-.picCap8 p {
+.piccap8 p {
   display: inline;
   text-align: left;
-  font-size: 1.05rem;
+  font-size: 0.95rem;
   line-height: 1rem;
   color: #666;
 }
@@ -480,15 +480,83 @@ figure {
 
 /* 8picture + description styles here */
 .cont8 {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  position: relative;
+  margin-left: -100px;
   width: 950px;
-  height: 580px;
-  margin-left: -150px !important;
-  margin-top: 250px;
-  z-index: 2;
+  height: 750px;
+  display: grid;
+  grid-template-columns: [vert1] 25% [vert2] 25% [vert3] 25% [vert4] 25%;
+  grid-template-rows: [hori1] 150px [hori2] 150px [hori3] 150px [hori4] 150px [hori5] 150px;
 }
+
+.boxtxt {
+  font-size: 16px;
+}
+
+.box1 {
+  z-index: 2;
+  grid-column-start: vert1;
+  grid-column-end: vert2;
+  grid-row-start: hori2;
+  grid-row-end: hori3;
+}
+
+.box2 {
+  z-index: 2;
+  grid-column-start: vert2;
+  grid-column-end: vert3;
+  grid-row-start: hori2;
+  grid-row-end: hori3;
+}
+
+.box3 {
+  z-index: 2;
+  grid-column-start: vert3;
+  grid-column-end: vert4;
+  grid-row-start: hori2;
+  grid-row-end: hori3;
+}
+
+.box4 {
+  z-index: 2;
+  grid-column-start: vert4;
+  grid-column-end: vert5;
+  grid-row-start: hori2;
+  grid-row-end: hori3;
+}
+
+.box5 {
+  z-index: 2;
+  grid-column-start: vert1;
+  grid-column-end: vert2;
+  grid-row-start: hori4;
+  grid-row-end: hori5;
+}
+
+.box6 {
+  z-index: 2;
+  grid-column-start: vert2;
+  grid-column-end: vert3;
+  grid-row-start: hori4;
+  grid-row-end: hori5;
+}
+
+.box7 {
+  z-index: 2;
+  grid-column-start: vert3;
+  grid-column-end: vert4;
+  grid-row-start: hori4;
+  grid-row-end: hori5;
+}
+
+.box8 {
+  z-index: 2;
+  grid-column-start: vert4;
+  grid-column-end: vert5;
+  grid-row-start: hori4;
+  grid-row-end: hori5;
+}
+
 
 .ContCont {
   font-size: 14px;
@@ -501,14 +569,16 @@ figure {
 .pic2 {
   position: absolute;
   display: flex;
-  margin-left: -170px;
-  margin-top: 2479px;
+  margin-left: 0px;
+  margin-top: 0px
   z-index: 1;
 }
 
-.picCap8 {
+.piccap8 {
+  position: relative;
   width: 950px;
-  margin-left: -150px;
+  margin-left: -100px;
+  margin-bottom: 15px;
 }
 
 /* 8 picture author note styles */
