@@ -170,6 +170,10 @@ figure {
   margin: 0 auto;
 }
 
+form {
+  width: 40%;
+}
+
 #Ricky {
   font-size: 0.95rem;
   color: #888;
@@ -832,4 +836,9 @@ figure {
   font-weight: 500;
   line-height: 34px;
   text-decoration: none;
+}
+
+/* form styles here */
+.formcomment {
+
 }
