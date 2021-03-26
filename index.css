@@ -348,7 +348,7 @@ figure {
 .NewsLet p {
   position: relative;
   align-self: flex-start;
-  font-size: 1rem;
+  font-size: 0.85rem;
   letter-spacing: 0.2px;
   color: rgb(51, 51, 51);
   width: 100%;
@@ -729,12 +729,14 @@ figure {
   margin-right: 25px;
   margin-top: 25px;
   flex-grow: 1;
+  font-size: 1.4rem;
 }
 
 .Pick2 {
   width: 310px;
   margin-right: 25px;
   margin-top: 15px;
+  font-size: 1.4rem;
 }
 
 .Pick2 h6 {
@@ -777,15 +779,23 @@ figure {
   width: 100%;
 }
 
+.footerhr {
+  width: 70%;
+}
+
+.homepage{
+  font-size: 15px;
+}
+
 /* real footer starts here */
 .footerFlexBox {
   margin-top: 25px;
   display: flex;
   flex-direction: row;
   color: black;
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 500;
-  line-height: 34px;
+  line-height: 25px;
   text-decoration: none;
   justify-content: space-between;
 }
@@ -818,7 +828,7 @@ figure {
   width: 100%;
   margin: 0 auto;
   color: black;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 500;
   line-height: 34px;
   text-decoration: none;
