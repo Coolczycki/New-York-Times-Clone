@@ -203,7 +203,7 @@ form {
 }
 
 #NavList :nth-child(1) {
-  margin-left: 50px;
+  margin-left: 75px;
   position: relative;
   float: left;
 }
@@ -211,14 +211,14 @@ form {
 #NavList :nth-child(2) {
   position: relative;
   float: left;
-  margin-left: 50px;
+  margin-left: -40px;
 }
 
 #NavList :nth-child(3) {
   font-weight: bold;
   position: relative;
   float: left;
-  margin-left: 50px;
+  margin-left: 15px;
 }
 
 #NavList :nth-child(4) {
@@ -691,12 +691,16 @@ form {
 
 .NewsLet button {
   position: relative;
-  right: -135px;
-  top: -50px;
   border: none;
   background-color: white;
   font-size: 34px;
   cursor: pointer;
+}
+
+.newsletcont {
+  display: flex;
+  justify-content: space-between;
+
 }
 
 .NewsLet h6 {
