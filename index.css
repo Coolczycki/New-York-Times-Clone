@@ -689,10 +689,10 @@ form {
   display: inline;
 }
 
-.NewsLet button {
+.NewsLet i {
   position: relative;
   border: none;
-  background-color: white;
+  color: black;
   font-size: 34px;
   cursor: pointer;
 }
@@ -700,7 +700,6 @@ form {
 .newsletcont {
   display: flex;
   justify-content: space-between;
-
 }
 
 .NewsLet h6 {
