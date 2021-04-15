@@ -1,3 +1,873 @@
-header {
-  color: blue;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
 }
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* code starts here */
+body {
+  font-family: 'Times New Roman', sans-serif;
+  margin: 0 0 0.935rem 0;
+  width: 100%;
+  max-width: 100%;
+  font-size: 1.45rem;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  height: 100%;
+  line-height: 1;
+}
+
+li {
+  display: inline;
+}
+
+figcaption {
+  text-align: left;
+  font-size: 1.05rem;
+  line-height: 1.25rem;
+  color: #666;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  width: 1300px;
+}
+
+a {
+  color: rgb(50, 104, 145);
+  text-decoration: none;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+footer {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  line-height: 20px;
+}
+
+figure {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  font-size: 20px;
+  margin: 25px auto 20px auto;
+}
+
+#Ricky {
+  font-size: 0.95rem;
+  color: #888;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italian {
+  font-style: italic;
+}
+
+/* Top Navbar styles */
+#NavList {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  font-size: 1.05rem;
+  margin-top: -26px;
+  padding-top: 15px;
+  background-color: white;
+}
+
+#NavList :nth-child(1) {
+  margin-left: 75px;
+  position: relative;
+  float: left;
+}
+
+#NavList :nth-child(2) {
+  position: relative;
+  float: left;
+  margin-left: -40px;
+}
+
+#NavList :nth-child(3) {
+  font-weight: bold;
+  position: relative;
+  float: left;
+  margin-left: 15px;
+}
+
+#NavList :nth-child(4) {
+  margin: auto;
+}
+
+#NavList :nth-child(6) {
+  margin-right: 100px;
+}
+
+.TopButton1 {
+  position: relative;
+  float: right;
+  border-radius: 3px;
+  cursor: pointer;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-color: #567b95;
+  border: 1px solid #326891;
+  font-size: 12px;
+  line-height: 11px;
+  letter-spacing: 0.05em;
+  width: 150px;
+  height: 35px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.TopButton2 {
+  position: relative;
+  float: right;
+  border-radius: 3px;
+  cursor: pointer;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-color: #567b95;
+  border: 1px solid #326891;
+  font-size: 12px;
+  line-height: 11px;
+  letter-spacing: 0.05em;
+  width: 80px;
+  height: 35px;
+  color: white;
+  text-transform: uppercase;
+}
+
+/* FlexBox Specs */
+.FlexBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Flex1 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 210px;
+  margin-top: 1200px;
+  margin-left: 75px;
+}
+
+.Middle {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 40%;
+  margin-left: 200px;
+}
+
+/* Title & Social media icons */
+#ArtHeader {
+  margin-top: 100px;
+  width: 33%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#ArtHeader h1 {
+  font-style: italic;
+  font-weight: 1000;
+  font-size: 42px;
+  padding-bottom: 15px;
+  line-height: 42px;
+}
+
+.Flex1 hr {
+  height: 2px;
+}
+
+#ArtHeader hr {
+  margin-bottom: 15px;
+}
+
+.SocIcon {
+  width: 100%;
+  float: left;
+  font-size: 24px;
+  margin-bottom: 25px;
+  margin-right: -400px;
+}
+
+.SocIcon li {
+  margin-right: 20px;
+  color: black;
+}
+
+/* Alan Guth picture styles */
+.pic1 {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+/* writer note styles */
+.ArtSignUpP p {
+  display: inline;
+}
+
+.footerTitle p {
+  display: inline;
+  float: right;
+}
+
+.footerFlexBox a {
+  text-decoration: none;
+  color: black;
+}
+
+.Flex1 p {
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.NewsLet p {
+  position: relative;
+  align-self: flex-start;
+  font-size: 0.85rem;
+  letter-spacing: 0.2px;
+  color: rgb(51, 51, 51);
+  width: 100%;
+  bottom: 10px;
+}
+
+.pic3 p {
+  text-align: left;
+  font-size: 0.95rem;
+  line-height: 1.125rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.piccap8 p {
+  display: inline;
+  text-align: left;
+  font-size: 0.95rem;
+  line-height: 1rem;
+  color: #666;
+}
+
+.VidClass p {
+  text-align: left;
+  font-size: 0.95rem;
+  line-height: 1.125rem;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+#Writer p {
+  margin-top: 25px;
+  color: black;
+  text-decoration: none;
+  font-size: 1.05rem;
+}
+
+.bottomText a {
+  color: #666;
+  padding: 10px 0;
+  margin-right: 12px;
+}
+
+#Writer a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+#date {
+  font-size: 0.85rem;
+  margin-top: 10px;
+}
+
+/* Signup styles */
+#ArtSignUp {
+  display: flex;
+  flex-direction: row;
+}
+
+.ArtSignUpP {
+  text-align: left;
+  font-size: 1.1rem;
+  line-height: 1.125rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.ArtSignUpP h4 {
+  display: inline;
+}
+
+#SignUpButt {
+  display: block;
+  border: 1px solid black;
+  background: white;
+  font-weight: 700;
+  height: auto;
+  white-space: nowrap;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  font-size: 1rem;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-top: 1px;
+  margin-left: 10px;
+}
+
+/* First text block styles */
+.txt1 {
+  padding-top: 30px;
+}
+
+/* Subscripe to times styles */
+#SubscrDiv {
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+#SubscrDiv a {
+  text-decoration: none;
+  color: rgb(50, 104, 145);
+  margin-top: -5px;
+}
+
+#SubscrDiv hr {
+  width: 100px;
+}
+
+/* Side bar styles */
+.SideBarAdd {
+  display: flex;
+  flex-direction: row;
+  line-height: 25px;
+  margin-top: 20px;
+}
+
+.BlackLink {
+  color: black;
+}
+
+.AdvPic {
+  margin-right: 10px;
+}
+
+/* 8picture + description styles here */
+.cont8 {
+  position: relative;
+  margin-left: -100px;
+  width: 950px;
+  height: 750px;
+  display: grid;
+  grid-template-columns: [vert1] 25% [vert2] 25% [vert3] 25% [vert4] 25%;
+  grid-template-rows: [hori1] 150px [hori2] 150px [hori3] 150px [hori4] 150px [hori5] 150px;
+}
+
+.boxtxt {
+  font-size: 16px;
+}
+
+.box1 {
+  z-index: 2;
+  grid-column-start: vert1;
+  grid-column-end: vert2;
+  grid-row-start: hori2;
+  grid-row-end: hori3;
+}
+
+.box2 {
+  z-index: 2;
+  grid-column-start: vert2;
+  grid-column-end: vert3;
+  grid-row-start: hori2;
+  grid-row-end: hori3;
+}
+
+.box3 {
+  z-index: 2;
+  grid-column-start: vert3;
+  grid-column-end: vert4;
+  grid-row-start: hori2;
+  grid-row-end: hori3;
+}
+
+.box4 {
+  z-index: 2;
+  grid-column-start: vert4;
+  grid-column-end: vert5;
+  grid-row-start: hori2;
+  grid-row-end: hori3;
+}
+
+.box5 {
+  z-index: 2;
+  grid-column-start: vert1;
+  grid-column-end: vert2;
+  grid-row-start: hori4;
+  grid-row-end: hori5;
+}
+
+.box6 {
+  z-index: 2;
+  grid-column-start: vert2;
+  grid-column-end: vert3;
+  grid-row-start: hori4;
+  grid-row-end: hori5;
+}
+
+.box7 {
+  z-index: 2;
+  grid-column-start: vert3;
+  grid-column-end: vert4;
+  grid-row-start: hori4;
+  grid-row-end: hori5;
+}
+
+.box8 {
+  z-index: 2;
+  grid-column-start: vert4;
+  grid-column-end: vert5;
+  grid-row-start: hori4;
+  grid-row-end: hori5;
+}
+
+.ContCont {
+  font-size: 14px;
+  width: 228px;
+  height: 137px;
+  line-height: 17px;
+  margin-right: 5px;
+}
+
+.pic2 {
+  position: absolute;
+  display: flex;
+  margin-left: 1px;
+  margin-top: 1px;
+  z-index: 1;
+}
+
+.piccap8 {
+  position: relative;
+  width: 950px;
+  margin-left: -100px;
+  margin-bottom: 15px;
+}
+
+/* 8 picture author note styles */
+.Pic8Auth {
+  width: 950px;
+  margin-left: -150px;
+  text-align: left;
+  font-size: 1.1rem;
+  line-height: 1.125rem;
+  font-weight: 500;
+  color: #333;
+  margin-top: -75px;
+}
+
+/* text after 8picture up to video + video styles */
+.txt2 {
+  margin-top: 75px;
+}
+
+.VidClass {
+  margin-top: 25px;
+}
+
+/* Third picture and text after it styles */
+.pic3 {
+  margin: 0 auto;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+/* version article footer, comment button and social media icon styling section */
+.ArtVers {
+  font-size: 0.85rem;
+  line-height: 1rem;
+  color: rgb(102, 102, 102);
+}
+
+.ArtFooter {
+  margin-top: 25px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between !important;
+}
+
+.FooterMargin {
+  margin-top: 25px;
+}
+
+.CommentButt {
+  display: inline;
+  float: left;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  line-height: 1.5rem;
+  font-weight: 600;
+  font-size: 0.82rem;
+  background-color: rgb(86, 123, 149);
+  border: 1px solid rgb(50, 104, 145);
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  width: 328px;
+  height: 36px;
+  margin-right: 75px;
+}
+
+/* footer styles starts here */
+.FooterMain {
+  width: 68.5%;
+  margin-right: 3%;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+  margin-top: 25px;
+}
+
+.topp {
+  display: inline;
+  font-size: 1rem;
+}
+
+.toppFlex {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* First row of the suggested newsletter + sidebar styles */
+.NewsLet {
+  width: 33%;
+  border: solid 1px rgb(102, 102, 102);
+  border-radius: 3px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.NewsLet img {
+  display: inline;
+}
+
+.NewsLet i {
+  position: relative;
+  border: none;
+  color: black;
+  font-size: 34px;
+  cursor: pointer;
+}
+
+.newsletcont {
+  display: flex;
+  justify-content: space-between;
+}
+
+.NewsLet h6 {
+  font-size: 0.8rem;
+  line-height: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.09rem;
+  text-transform: uppercase;
+  color: rgb(51, 51, 51);
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.NewsLet h4 {
+  font-size: 1.125rem;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.FooterSide {
+  display: flex;
+  flex-direction: column;
+  width: 28.5%;
+}
+
+/* 2nd & 3rd row of newsletter */
+.section2 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.Pick {
+  margin-right: 25px;
+  margin-top: 25px;
+  flex-grow: 1;
+  font-size: 1.4rem;
+}
+
+.Pick2 {
+  width: 310px;
+  margin-right: 25px;
+  margin-top: 15px;
+  font-size: 1.4rem;
+}
+
+.Pick2 h6 {
+  font-size: 0.6rem;
+  line-height: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.09rem;
+  text-transform: uppercase;
+  color: rgb(51, 51, 51);
+  width: 100%;
+}
+
+.Pick2 h5 {
+  font-size: 0.7rem;
+  line-height: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.09rem;
+  text-transform: uppercase;
+  color: rgb(51, 51, 51);
+  width: 100%;
+}
+
+.Pick h6 {
+  font-size: 0.6rem;
+  line-height: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.09rem;
+  text-transform: uppercase;
+  color: rgb(51, 51, 51);
+  width: 100%;
+}
+
+.Pick h5 {
+  font-size: 0.7rem;
+  line-height: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.09rem;
+  text-transform: uppercase;
+  color: rgb(51, 51, 51);
+  width: 100%;
+}
+
+.footerhr {
+  width: 70%;
+}
+
+.homepage {
+  font-size: 15px;
+}
+
+/* real footer starts here */
+.footerFlexBox {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  color: black;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 25px;
+  text-decoration: none;
+  justify-content: space-between;
+}
+
+.footerCont {
+  margin-right: 20px;
+}
+
+.bottomFooter {
+  margin: 0 auto;
+  margin-top: 25px;
+  width: 70%;
+}
+
+.footerTitle img {
+  display: inline;
+}
+
+.footerList {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.footerList li {
+  width: 100%;
+}
+
+.bottomText {
+  width: 100%;
+  margin: 0 auto;
+  color: black;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 34px;
+  text-decoration: none;
+}
+
+/* form styles here */
+.columnflex {
+  display: flex;
+  flex-direction: column;
+}
+
+.formcomment {
+  width: 100%;
+  height: 200px;
+}
+
+.smallflex {
+  display: flex;
+  flex-direction: row;
+}
+
+.formul {
+  display: inline;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.formul li {
+  display: inline;
+  list-style: none;
+}
+
+.formbutton {
+  width: 100%;
