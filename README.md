@@ -15,7 +15,8 @@ Methods used in the project include CSS  flexbox, floats, and grid.</p><br>
 <br>
 <h3><b>Live Demo</b></h3>
 <hr>
-<a href="[https://loosescrew022.github.io/Week1-project](https://coolczycki.github.io/New-York-Times-Clone/)">Live Demo Link</a><br>
+https://coolczycki.github.io/New-York-Times-Clone/
+
 <h3><b>Getting Started</b></h3>
 <hr>
 <p>To get a local copy up and running follow these simple example steps</p>
